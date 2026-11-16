@@ -1,0 +1,7 @@
+// VIOLA EL SRP: cálculo, impresión y persistencia en una sola clase
+class Factura {
+    private double monto = 100000;
+    public double calcularImpuestos() { return monto * 0.12; }
+    public void imprimirFactura() { System.out.println("Imprimiendo factura..."); }
+    public void guardarFactura() { System.out.println("Guardando factura en la base de datos..."); }
+}
